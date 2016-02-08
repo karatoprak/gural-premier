@@ -1,0 +1,4 @@
+﻿FLD_FIELD|FLD_TEXT
+lbfURN_STOKTAYOK|<style> .spr4 .prdPrice .urunDetay_satisFiyat,.spr4 .detailInfoMenu,.spr4 .prdIcon.tukendi, .spr4 .prdPrice .urunDetay_satisIlkFiyat, .spr4 .prdIcon.cargo1{display:none;} </style><div class="prdIcon tukendi"><b>GELİNCE HABER VER</b></div>
+lbfURN_BAGLIURUN|Fiyata Dahil ve Özel Fiyatlı Ürünler
+lblKazancOran|<i>%</i>$indirimOran$

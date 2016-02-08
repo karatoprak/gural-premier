@@ -1,0 +1,167 @@
+﻿FLD_FIELD|FLD_TEXT
+lbfKUTU_HESABIM|<a href="javascript:void(0);"><i class="icon1 member1"></i><span class="userLogOff">GİRİŞ YAP</span><span class="userLogIn">HESABIM</span></a>
+
+lbfkutuUyeGiris1|<a href="javascript:void(0);" class="clsPp"><i class="icon1 close1"></i></a><span><style>.sub.login {display:none !important;}</style>
+lbfkutuUyeGiris2|<a href="javascript:void(0);" class="clsPp"><i class="icon1 close1"></i></a><span><style>.sub.logoff {display:none !important;}</style>
+
+lbfKUTU_SEPET|SEPETİM
+lbfKUTU_ARAMA|<a href="javascript:void(0);" class="searchBtn"><i class="icon1 search1"></i><span>ARA</span></a>
+
+lbfKUTU_BULTEN|E-BÜLTEN
+lbfbtnBultenGonder|GÖNDER
+lbfKUTU_BULTEN_ACIKLAMA|Yeni gelen, indirime giren ürünlerden ilk siz haberdar olun.
+
+lbflnkUyeOlmak|<a class="btnDefault btnGray2" href="/login.aspx"><span><i class="icon1 c9R"></i>YENİ ÜYELİK</span></a>
+lbfbtnKutuLogin|GİRİŞ YAP
+lbfbtnFacebookLoginKutu|<i class="icon1 facebookIcon"></i><span>FACEBOOK İLE BAĞLAN</span>
+lbfNAVIGATION_SEPERATOR|<i class="icon1 c3R"></i>
+lbfYENIUYELIK|YENİ ÜYELİK
+lblSCM_AD1|SEÇİNİZ
+lbfPAGE_UYEGIRISI|GİRİŞ YAP
+lbfbtnKutuLogout|Çıkış Yap<i class="icon1 c2R"></i>
+lbfUYE_HATALIGIRIS|<div class="message r0 errorKutuLogin">Hatalı Giriş Yaptınız. Lütfen Tekrar Deneyin.</div>
+lbfKUTU_SECIMLER|Seçimleriniz
+lbfAramaKelime|$kelime$ <small>aramasında</small>
+lbfFiltreToplamUrunSayi|$toplamUrunAdet$ <small>ÜRÜN</small>
+lbfFiltreKayitSayisi| <i>($filtreKayitSayisi$)</i>
+lbfLnkSecTemizle|$parDeger$
+lbflnkPrmTumunuTemizle|FİLTRELERİ TEMİZLE <i>X</i>
+lbfbtnKiyaslamaListemeDon|<i class="icon1 cursorLB2"></i> Listeme Dön
+lbfFiltreler|$filtreler$ modellerinde 
+lbfAramaText|<h1>$kelime$</h1> aramasında 
+lbfKayitSayisi|$kayitSayisi$ adet kayıt bulundu.
+lbfKategoriKayitSayisi| <i>($filtreKayitSayisi$)</i>
+lbfCokSatan|<div class="sectionHead"><b>EN ÇOK SATANLAR</b></div>
+lbfURN_URUNYOK|<div class="prdCatEmpty"><i class="icon1 noPrdCat"></i><span>Bu Kategoride<br>Ürün Bulunamadı</span><a class="btnDefault btnGray2" href="/"><span><i class="icon1 c3L"></i>Alışverişe Başla</span></a></div>
+lbfSonGezilen|<div class="sectionHead"><b>SON GEZDİKLERİNİZ</b></div>
+lbfPagingNext|Sonraki
+lbfPagingPrev|Önceki
+lbfDetayGoster|ÜRÜNE GİT
+lbfTumGoster|TÜMÜNÜ GÖSTER
+lbfTavsiyeUrun|İlginizi çekebilir
+lbfYeniUrun|<div class="prdIcon new"><b>YENİ</b><i class="icon1 new1"></i></div>
+lbfURN_STOKTAYOK|<div class="prdIcon tukendi"><b>STOKTA YOK</b></div>
+lbfIndirimUyari|<div class="prdIcon discount"><b>İNDİRİMLİ</b><i class="icon1"></i></div>
+lblURN_INDIRIMORAN|<i>%</i>$indirimOran$
+lbfURN_AYNIGUNKARGO|<div class="prdIcon cargo1"><b>HIZLI GÖNDERİ</b><i class="icon1 cargo1"></i></div>
+lbfKargoBilgi|<div class="prdIcon cargo1"><b>ÜCRETSİZ KARGO</b><i class="icon1 cargo1"></i></div>
+lblURUNYORUM_ORTALAMAPUAN|<a href="javascript:void(0);">$ortalamaPuan$ (<span class="toplamYorum">$toplamYorum$</span> yorum)</a>
+lbfSatisFiyat|<div class="price"><!-- <i class="icon1 dolarb1"></i> -->getExportData[doviz;]  <div></div></div>
+lbfImgZoomScript|getExportData[detailGallery;]
+lblURUNDETAYPAYLAS|<a href="javascript:openWinPp('http://www.facebook.com/sharer.php?u=$link$');"><i class="icon1 facebook2"></i></a><a href="javascript:openWinPp('http://www.twitter.com/home/?status=$link$');"><i class="icon1 twitter2"></i></a>
+lbfbtnFiyatDus|<i class="icon1 discountIcon1"></i><span>İNDİRİMİ HABER VER</span>
+lbfbtnFavoriEkle|<i class="icon1 heart1"></i>FAVORİLERE EKLE
+lbfbtnSepeteAt|<i class="icon1 addCart1"></i>SEPETE EKLE
+lbfSPT_EKLENIYOR|<i class="icon1 addCart1"></i>EKLENİYOR..
+lbfSPT_EKLENDI|<i class="icon1 addCart1"></i>EKLENDİ
+lbfbtnStokHaberci|GELİNCE HABER VER
+lbfARM_MESAJ|Ürün ara
+lbfKUTU_SECIMDARALT|FİLTRE <a href="javascript:void(0);" class="mobile mFilterClose"><i class="icon1 closeIcon1"></i></a>
+lbfSEPETICERIK|<div class="cartPrdInfo"><span class="prdName">$URNAD$ <span class="prdSize">$URNSEC1$</span><span class="prdCount">$URNADET$</span></span></div><div class="prdPrice">$URN_NETTOPLAM$</div>
+
+#lbfKUCUKSEPETHTML|$URN_RESIM$ $URNAD$ $URNADET$ $URN_KOD$ $URN_NETTOPLAM$
+lbfbtnUyeBilgi|GÜNCELLE
+lbfSEPETICERIKURUNSIL|<div class="kutuSepetSil">X</div>
+lbfkutuSepet1|<a href="javascript:void(0);" class="btnDefault btnGray"><span><i class="icon1 c3L"></i>Alışverişe devam et</span></a>
+lbflnkSepet|ALIŞVERİŞİ TAMAMLA
+lblUrunTutari|asd
+lbfKUTU_YENIURUNLER2|<div class="sectionHead"><b>Yeni Ürünler</b></div>
+lbfURN_ACIKLAMA_TAB|Ürün Bilgileri
+lblURN_YORUMLAR|Yorumlar
+lbfURN_TAVSIYEURUN|Tavsiye Ürünler
+lbfSil|<i class="icon1 closeIcon1"></i>
+lbfbtnTakipListeFiySil|<i class="icon1 closeIcon2"></i>
+lbfbtnFavoriListeSil|<i class="icon1 closeIcon2"></i>
+lbfUrunAdi|Ürün
+lbfBirimFiyat|Fiyat
+lbfUrunAdet|Adet
+lbfToplam|Toplam
+lbfSip_AraToplam|Ara Toplam
+lbfSIP_KDVTOPLAM|KDV
+lbfSip_NetToplam|NET TOPLAM
+lbfbtnSiparisTamamla|ALIŞVERİŞİ TAMAMLA
+lbfbtnAlisverisDevam|<i class="icon1 arrowLeft3"></i>Alışverişe Devam Et
+lbfHDR_SEPETIM|<i class="icon1 step1"></i><b>SEPETİM</b>
+lbfHDR_TESLIMATBILGI|<i class="icon1 step2"></i><b>TESLİMAT</b>
+lbfHDR_ODEMEBILGI|<i class="icon1 step3"></i><b>ÖDEME & ONAY</b>
+lbfHDR_SIPARISONAY|<i class="icon1 step4"></i><b>ONAY</b>
+lbfHCK_KEY|İndirim Kodu
+lbfbtnhediyeCekiKullan|Uygula
+lbfHCK_GECERSIZKOD|<div class="message r0">Geçersiz Kupon Kodu</div>
+lbfHCK_DAHAONCEKULLANILMIS|<div class="message r0">İndirim kuponu daha önce kullanılmış</div>
+lbfHCK_UYELIKICINGECERSIZ|<div class="message r0">Girilen kupon kodu bu üyelik için geçersiz</div>
+lbfHCK_UYEGIRISYAP|<div class="message r0">Üye girişi yapılmalıdır</div>
+lbfHCK_HENUZGECERLIDEGIL|<div class="message r0">Girilen kupon kodu henüz geçerli değil</div>
+lbfHCK_SURESIDOLMUS|<div class="message r0">Girilen kupon kodunun süresi dolmuş</div>
+lbfHCK_UYELIKICINDAHAONCEKULLANILMIS|<div class="message r0">Bu kupon kodu üyeliğiniz için daha önce kullanılmış</div>
+lbfHCK_YUKLENDI|<div class="message r1">Hediye çeki bonus puan olarak hesabınıza eklenmiştir.</div>
+lbf_KARGOBILGI|KARGO SEÇİNİZ
+lbfbtnOdemeBilgi|DEVAM ET
+lbfbtnSepeteDon|<i class="icon1 c3L"></i>Sepet
+lbfbtnTeslimatBilgiDon|<i class="icon1 c3L"></i>Teslimat
+lbfbtnOdemeBilgiDon|<i class="icon1 arrowLeft5"></i>SİPARİŞ ADIMLARINA DÖN
+lbfbtnOdemeKrediKarti|DEVAM ET
+lbfbtnOdemePesinDigerDevam|DEVAM ET
+lbfbtnOdemePesinDigerDevam|DEVAM ET
+lbfbtnOdemeHavaleDevam|DEVAM ET
+lbfbtnSiparisOnay|ONAYLA
+lbfKKT_CVC_NEDIR|<div id="cvcaciklama"><h6>CVC2 numarası kredi kartınızın arkasında bulunan rakamın son üç hanesidir.</h6><p>Kartın manyetik şeridine yazılmayan bu numara sayesinde kredi kart numaranız ele geçirilse bile CVC2 Numarası gizli kalacağından kartınız isteğiniz dışında kullanılamaz. İşleminizin daha güvenli olması için işlem sırasında sizden bu numaranın girişini yapmanız istenmektedir.</p><a id="cvckapat" href="javascript:void(0);">kapat</a></div><a id="cvcnedir" href="javascript:void(0)">CVC nedir?</a><script>$('#cvcnedir').click(function(){$('#cvcaciklama').show();});$('#cvckapat').click(function(){$('#cvcaciklama').hide();})</script>
+lbfONBILGILENDIRMEFORM_DEC|<span class="sz">"<u class="sozlesmeAc">Ön Bilgilendirme Formunu</u>" okudum ve kabul ediyorum.</span>
+lbfSATISSOZLESMESI_DEC|<span class="sz">"<u class="sozlesmeAc2">Mesafeli Satış Sözleşmesini</u>" okudum ve kabul ediyorum.</span>
+lbfSIP_ONAYLA_DEC|<div class="message r1">İşleminiz Gerçekleşiyor Lütfen Bekleyiniz..</div>
+lbfHDR_SIPARISSONUC|SİPARİŞ SONUÇ
+lbfSiparisKaydedilemedi|<style>.cartPage .section1 {display: none !important;}</style><div class="orderLast ord0"><i class="icon1 r0"></i><b>SİPARİŞİNİZ TALEBİNİZ GERÇEKLEŞTİRİLEMEDİ.</b></div><div class="text">Siparişiniz sırasında kredi kartınız çeşitli nedenlerden dolayı bankanız tarafından onaylanmayabilir:<br/>Bu nedenler arasında başlıcaları; <br>1. Kredi kartınızın kullanılabilir limitinin yetersiz olması,<br/>2. Kart numarasını hatalı girmeniz,<br/>3. Kartınızın son kullanma tarihinin geçmiş olması,<br/>4. Kullandığınız kart bir ek kart ise, ana kart sahibi tarafından iptal edilmiş olması,<br/>5. Onay işlemi sırasında geçici bağlantı sorunları yaşanması,<br/>6. Kayıp ihbarı yaptığınız bir kartı yeniden kullanmaya çalışmanız,<br/>7. Kullanmaya çalıştığınız kartın bir kredi kartı değil, ATM kartı olması sayılabilir. Lütfen kredi kartı bilgilerinizi kontrol edip tekrar deneyin.</div>
+lbfOdemeAlinamadi|<style>.cartPage > .section1 {display:none;}</style><div class="orderLast ord0"><i class="icon1 r0"></i> <b>Üzgünüz!<br>Siparişiniz Kaydedilemedi.</b></div> <div class="text">Siparişiniz sırasında kredi kartınız çeşitli nedenlerden dolayı bankanız tarafından onaylanmayabilir:<br/>Bu nedenler arasında başlıcaları; <br> 1. Kredi kartınızın kullanılabilir limitinin yetersiz olması,<br/>2. Kart numarasını hatalı girmeniz,<br/>3. Kartınızın son kullanma tarihinin geçmiş olması,<br/>4. Kullandığınız kart bir ek kart ise, ana kart sahibi tarafından iptal edilmiş olması,<br/>5. Onay işlemi sırasında geçici bağlantı sorunları yaşanması,<br/>6. Kayıp ihbarı yaptığınız bir kartı yeniden kullanmaya çalışmanız,<br/>7. Kullanmaya çalıştığınız kartın bir kredi kartı değil, ATM kartı olması sayılabilir. Lütfen kredi kartı bilgilerinizi kontrol edip tekrar deneyin.</div>
+lbfSIP_DEFAULTERROR|<style>.cartPage .section1 {display:none;}</style><div class="orderLast ord0"><i class="icon1 r0"></i> <b>Üzgünüz!<br>Siparişiniz Kaydedilemedi.</b></div> <div class="text">Siparişiniz sırasında kredi kartınız çeşitli nedenlerden dolayı bankanız tarafından onaylanmayabilir:<br/>Bu nedenler arasında başlıcaları; <br> 1. Kredi kartınızın kullanılabilir limitinin yetersiz olması,<br/>2. Kart numarasını hatalı girmeniz,<br/>3. Kartınızın son kullanma tarihinin geçmiş olması,<br/>4. Kullandığınız kart bir ek kart ise, ana kart sahibi tarafından iptal edilmiş olması,<br/>5. Onay işlemi sırasında geçici bağlantı sorunları yaşanması,<br/>6. Kayıp ihbarı yaptığınız bir kartı yeniden kullanmaya çalışmanız,<br/>7. Kullanmaya çalıştığınız kartın bir kredi kartı değil, ATM kartı olması sayılabilir. Lütfen kredi kartı bilgilerinizi kontrol edip tekrar deneyin.</div>
+lbfSiparisBasarili|<style> .cartPage .section1 {display: none !important;}</style> <div class="orderLast ord1"><i class="icon1 iconSipChk"></i> <b>Teşekkürler!<br>Siparişiniz Başarılı Olarak Alınmıştır.</b></div>
+lblSIP_BASARILI|<div class="sipNoDetay clearfix"><span class="sipText">SİPARİŞ NUMARANIZ: </span><span class="sipNo">$siparisKodu$</span></div> <div class="text"><p>Sipariş ettiğiniz ürünler en kısa sürede teslimat adresinize teslim edilecektir. Siparişiniz ile ilgili gelişmeleri <a href="/uyeIslem/siparistakip.aspx">siparişlerim</a> sayfasından takip edebilirsiniz.<br>Alışverişinizde Bizi Seçtiğiniz İçin Teşekkür Ederiz.</p></div> <div class="cartStepBtn clearfix"><a href="/" class="btnDefault btnAnasayfaDon"><span><i class="iconArwBckBlck"></i>ANASAYFAYA DÖN</span></a><a href="http://www.spx.com.tr/uyeIslem/siparistakip.aspx?lang=tr-TR" class="btnDefault btnSiparislerim"><span>SİPARİŞLERİM</span></a></div>
+lblComItemList|KARŞILAŞTIR
+lbfbtnCompare|Karşılaştır<i class="icon1 c2R"></i>
+lbfSIP_BONUSPARAHESAPLANIYOR|<div class="message r1">Ödeme bilgileri hesaplanıyor. Lütfen bekleyin...</div>
+lbfBNK_AD_HV|Havale yapmak istediğiniz bankayı seçerek devam edin
+lblSIP_HAVALEMESAJ|*Sipariş tarihinden sonraki 5 gün içinde havale yapmanız gerekmektedir.
+lbfARAMA_TUMUNUGOSTER|Tüm Sonuçları Göster<i class="icon1 c2R"></i>
+lbfSPT_SEPETBOS|<style>.pageCart .section2 .innerRow2, .tabloTabBtnAdim {display:none !important;} .pageCart.s0 .section2 .innerRow1, .sipColL {padding-right:0;}</style><div class="cartEmpty"><i class="icon1 noPrd"></i><span>Sepetinizde<br>Ürün Bulunamadı</span><a class="btnDefault btnGray2" href="/"><span><i class="icon1 c3L"></i>Alışverişe Başla</span></a></div>
+lbfFileNotFound1|<div class="errorHolder"><b>404</b><h6>Aradığınız Sayfa Bulunamadı</h6><p>Url’de hata olup olmadığını kontrol edin.</p><a class="btnDefault btnGray2" href="/"><span><i class="icon1 c3L"></i>Anasayfa'ya dön</span></a></div>
+lbfNoAccess1|<div class="errorHolder"><b>404</b><h6>Aradığınız Sayfa Bulunamadı</h6><p>Url’de hata olup olmadığını kontrol edin.</p><a class="btnDefault btnGray2" href="/"><span><i class="icon1 c3L"></i>Anasayfa'ya dön</span></a></div>
+lbfUYE_ADRESSIL|Sil
+lbfUYE_ADRESGUNCELLE|<span>Güncelle</span>
+lbfUYE_ADRESGORUNTULE|<span>Görüntüle</span>
+lbfbtnAdresEkle|<b>+</b> YENİ ADRES EKLE
+lbfUYA_ADRESEKLE|YENİ ADRES
+lbfTesAdresSec|
+lbfTesAdresSecili|(Seçili Adres)
+lbfFatAdresSec|Fatura Adresi Seç
+lbfFatAdresSecili|Fatura Adresi Seçildi
+lbfFarkliFatAdrSec|Faturamı farklı adrese gönder
+lbfUYA_KAYITKULLANIMDA|<div class="message r0">Bu fatura adresinizi daha önce bir siparişinizde kullandığınız için değiştiremiyorsunuz.</div>
+lbfYORUMLAR_GENELDEGERLENDIRME|
+lbfYORUM_YUKLENIYOR|<div class="message r1">Yükleniyor, lütfen bekleyiniz..</div>
+lbfYORUM_EKLE|<div class="addComment">Yorum Ekle</div>
+lbfYRM_PUAN|Puanınız
+lbfYORUM_YOK|<div class="message r0">Seçilen kriterde yorum bulunamadı!</div>
+lbfBasarili|<div class="message r1">Şifreniz başarıyla değiştirildi.</div>
+lbfYanlisSifre|<div class="message r0">Girdiğiniz mevcut şifreniz hatalı. Lütfen doğru şifre ile tekrar deneyiniz.</div>
+lbfBILGILENDIRME_PRINT|<i class="icon1 doc1"></i>
+lbfSOZLESME_PRINT|<i class="icon1 doc1"></i>
+lbfURN_KARSILASTIRMAEKLE|<h3 class="karsilastirmaHead">KARŞILAŞTIRMA</h3><p class="karsilastirmaText">Karşılaştırmak için ürün adı ile arama yapınız.</p>
+lbfbtnTavsiyeEt|<i class="icon1 mesajZarf"></i> Arkadaşıma Gönder
+lbfPopupUyeOlmak|<a target="_parent" href="/login.aspx"><span>Üye Olun</span></a>
+lbfPesinOdemeBonus|Bu ürünü aldığınızda $kdvsizfiyat$ puan kazanacaksınız.
+lbfKargoFiyat|Kargo Ücreti:
+lbfSatisFiyatKdvsiz|Bu ürünü aldığınızda kazanacağınız puan:
+lbfDEC_GuestCheckout|Koyu olarak yazılmış alanların doldurulması zorunludur.
+lbfDEC_TAKSITSECENEK|Peşin fiyatına taksit seçeneklerimiz aşağıdaki gibidir.
+lbfUYELIKONAY_DEC|<a href="javascript:parent.openPopup('/popup/popup_otomasyon.aspx?mly=35&amp;lang=tr-TR','popup_satissozlesmesi','popup_satissozlesmesi')">Üyelik Sözleşmesini</a> kabul ettiğinizi onaylıyorsunuz.
+lbfURUNLISTEGRUPBASLIK|RENK SEÇENEKLERİ
+lbfUYA_SEMT|İlçe
+lbfPromosyonUyari|<i class="icon1 campaignIco"></i> KAMPANYALI
+lbfAdetCikar|<i>-</i>
+lbfAdetEkle|<i>+</i>
+lbfbtnAdresIptal|<i>X</i> İPTAL
+lbfODM_KKARTNO|Kart Numarası
+lbfKSA_SPR_AD|Son Kullanma Tarihi
+lbfODM_KKARTCVCNO|Kart Güvenlik Kodu (CVC)
+lbfODM_KKARTISIM|Kart Üzerindeki İsim
+lbfHDR_MESAJMENU|MESAJLARIM
+lbfKUTU_YETKILISERVISLER|MAĞAZALARIMIZ

@@ -1,0 +1,1654 @@
+* {
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+	font-family:'athelas-regular';
+	font-size:20px;
+	color:#fff;
+	font-weight:400;
+	font-style:normal;
+	text-align:left;
+	line-height:1;
+	margin:0;
+	padding:0;
+	border:none;
+	outline:none;
+	vertical-align:baseline;
+	text-decoration:none;
+	list-style:none;
+	border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* START */
+
+.clear{
+	clear:both;
+}
+
+#header, #main, .w-full {
+	width:100%;
+	display:inline-block;
+}
+
+.w1420{
+	width:1420px;
+	margin:auto;
+	max-width:100%;
+}
+
+.w1200{
+	width:1200px;
+	margin:auto;
+}
+
+.w800{
+	width:800px;
+	margin:auto;
+	max-width:95%;
+}
+
+.w700{
+	width:700px;
+	margin:auto;
+	max-width:95%;
+}
+
+
+.max-w100{
+	max-width:100%;
+}
+
+.max-w95{
+	max-width:95%;
+}
+
+/* END */
+
+
+
+/* ========== HEADER START ========== */
+#header{
+	margin-bottom:20px;
+	margin-top:20px;
+}
+
+.hamburger-menu {
+    float: left;
+    margin: 20px 0px;
+}
+
+.logo {
+    float: left;
+}
+
+.reservation {
+    float: right;
+}
+
+.reservation > .m-reservation {
+    display: none;
+}
+
+.header-holder{
+	height: 60px;
+}
+
+/* ========== HEADER END ========== */
+
+
+
+/* ========== HAMBURGER MENU START ========== */
+
+.hamburger-menu  {
+  width: 40px;
+  height: 20px;
+  position: relative;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  cursor: pointer;
+}
+
+.hamburger-menu  span {
+  display: block;
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background: #1d2269;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .25s ease-in-out;
+  -moz-transition: .25s ease-in-out;
+  -o-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+}
+
+.hamburger-menu  .item-one {
+  top: 0px;
+}
+
+.hamburger-menu  .item-two,.hamburger-menu  .item-three {
+  top: 8px;
+}
+
+.hamburger-menu  .item-four {
+  top: 16px;
+}
+
+.hamburger-menu.open .item-one {
+  top: 9px;
+  width: 0%;
+  left: 50%;
+}
+
+.hamburger-menu.open .item-two {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.hamburger-menu.open .item-three {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.hamburger-menu.open .item-four {
+  top: 9px;
+  width: 0%;
+  left: 50%;
+}
+
+/* ========== HAMBURGER MENU END ========== */
+
+
+
+/* ========== RESERVATION START========== */
+
+.reservation > a{
+	display: inline-block;
+	border: 1px solid #000;
+	background-color: #fff;
+	color: #1d2269 !important;
+	font-size: 18px;
+	line-height: 18px;
+	padding: 20px 36px 20px 36px;
+}
+
+.button{
+	position: relative;
+	z-index: 2;
+	-webkit-transition: all 0.4s;
+	transition: all 0.4s;
+}
+
+.button:after{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    background-color: #1d2269;
+    content: "";
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.button:hover{
+	background-color: transparent;
+    color: #fff !important;
+}
+
+.button:hover:after{
+	width:100%;
+}
+
+/* ========== RESERVATION END ========== */
+
+
+
+/* ========== HOME SLIDER START ========== */
+
+.home-slider {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.home-slider .img {
+    position: relative;
+    width: 1420px;
+    height: 650px;
+	max-width:100%;
+}
+
+.home-slider .home-slider-holder {
+    position: absolute;
+    bottom: 115px;
+    width: 100%;
+}
+
+.home-slider-holder > h2 {
+    font-size: 92px;
+    text-align: center;
+}
+
+.home-slider-holder > p {
+    font-size: 28px;
+    text-align: center;
+    font-family: 'athelas-italic';
+    margin: 25px 0 70px 0;
+}
+
+.home-slider .discover {
+    margin: auto;
+    width: 440px;
+}
+
+.home-slider .discover .object {
+    float: left;
+    width: 220px;
+    height: 70px;
+}
+
+.home-slider .discover .object-one {
+    background-color: #020857;
+
+}
+.home-slider .discover .object a {
+	font-size: 24px;
+	line-height:70px;
+}
+
+.home-slider .discover .object-two {
+    background-color: #fff;
+    
+}
+
+.home-slider .discover .object-two a {
+	color:#020857;
+}
+
+.home-slider .discover .object-one a {
+    margin-left: 77px;
+}
+
+.home-slider .discover .object-two a {
+    margin-left: 55px;
+}
+
+/* ========== HOME SLIDER END ========== */
+
+
+
+/* ========== BUY BAR START ========== */
+
+.buy-bar * {
+    font-size: 18px;
+}
+
+.buy-bar {
+    display:inline-block;
+    margin-bottom: 45px;
+    border: 1px solid #dadada;
+}
+
+.buy-bar .option {
+    float:left;
+    width:100%;
+}
+
+.buy-bar .option .left {
+    float: left;
+}
+
+.buy-bar .option .right {
+    float: right;
+}
+
+.buy-bar .option .left .object {
+    float: left;
+}
+
+.buy-bar .option > ul > li a {
+    color: #121761;
+}
+
+.buy-bar .option .right .sign {
+    float: left;
+}
+
+.buy-bar .option .right .sign a {
+    font-size: 16px;
+    color: #aaa;
+}
+
+.buy-bar .option .left .object {
+    padding: 20px;
+}
+
+.buy-bar .option .right .sign {
+    margin-top: 20px;
+}
+
+.buy-bar .option .right .sign-up {
+    margin-left: 9px;
+}
+
+.buy-bar .option .right .sign-up:before {
+    content: '.';
+    margin-right: 9px;
+    color: #aaa;
+}
+
+.buy-bar .form {
+    width: 100%;
+    float: left;
+    padding: 25px 20px;
+}
+
+.buy-bar .form-group{
+	float:left;
+	margin-right: 10px;
+}
+
+.buy-bar .form-group .object, .buy-bar .form-group .select {
+    display: block;
+}
+
+.buy-bar .form .form-group .title {
+    font-size:18px;
+    color: #121761;
+}
+
+.buy-bar .form-group .object, .buy-bar .form-group .select  {
+    color: #121761;
+    height: 38px;
+	padding:8px;
+	margin-top:5px;
+	background-color:#ccc;
+}
+
+.buy-bar .form-group .object a, .buy-bar .form-group .select  {
+    color: #121761;
+}
+
+.buy-bar .form-group .select option{
+	color:#121761;
+}
+
+.buy-bar .option .left .object option {
+    color: #121761;
+}
+
+.buy-bar .form .form-group:nth-child(1) .object {
+    width: 250px;
+}
+
+.buy-bar .form .form-group:nth-child(2) .select {
+    width: 250px;
+}
+
+.buy-bar .form .form-group:nth-child(3) .object {
+    width: 190px;
+}
+
+.buy-bar .form .form-group:nth-child(4) .object {
+    width: 190px;
+}
+
+.buy-bar .form .form-group:nth-child(2){
+	margin-right:29px;
+}
+
+.buy-bar .form .form-group:nth-child(4){
+	margin-right:29px;
+}
+
+.buy-bar .form .book {
+	width: 200px;
+    height: 38px;
+    margin-top: 23px;
+    background-color: #121761;
+    text-align: center;
+    float: left;
+    line-height: 38px;
+}
+
+/* ========== BUY BAR END ========== */
+
+
+
+/* ========== SOCIAL ACTIVITIES START ========== */
+
+.social-activities-holder {
+    width: 72%;
+    float: left;
+    margin-right: 1.3%;
+}
+
+.social-activities-holder .social-activities {
+    float: left;
+    width: 32.4%;
+    margin-right: 1.4%;
+    border-bottom: 3px solid #1d2269;
+}
+
+.social-activities-holder .text {
+    position: relative;
+    height: 172px;
+}
+
+.social-activities-holder .social-activities-three {
+    margin: 0;
+}
+
+.social-activities-holder .social-activities > img {
+    width: 100%;
+}
+
+.social-activities-holder .social-activities .text > h2 {
+    font-size:24px;
+    margin: 15px 0 8px 0;
+    color:#1d2269;
+}
+
+.social-activities-holder .social-activities .text > p {
+    font-size:16px;
+    color:#787878;
+}
+
+.social-activities-holder .social-activities .text > .read-more {
+    font-size:16px;
+    color:#020857;
+    position:absolute;
+    bottom: 10%;
+}
+
+.home-mini-slider {
+    float: left;
+    width: 26.7%;
+}
+
+.home-mini-slider a img {
+    width: 100%;
+}
+
+.home-mini-slider .our-rooms {
+    height: 190px;
+    background-color: #020857;
+    padding: 8.3%;
+    width: 100%;
+    position:relative;
+}
+
+.home-mini-slider .our-rooms > h2 {
+	font-size: 24px;
+}
+
+.home-mini-slider .our-rooms > .check-our-rooms {
+    width: 83.6%;
+    background-color: #ececec;
+    height: 31.6%;
+    display: block;
+    bottom: 20px;
+    position: absolute;
+    line-height: 60px;
+    font-size: 18px;
+    text-align: center;
+    color:#1d2269;
+}
+
+.social-activities-holder .discover-more{
+    float: right;
+    display: inline-block;
+    margin-top: 4%;
+    font-size: 18px;
+    color: #aaa;
+}
+
+/* ========== SOCIAL ACTIVITIES END ========== */
+
+
+
+/* ========== INSTAGRAM GALLERY START ========== */
+
+.instagram-gallery-background {
+    background: #ececec;
+    display: inline-block;
+    margin-top: 45px;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+
+.instagram-gallery {
+    float: left;
+    width: 100%;
+}
+
+.instagram-gallery .icon {
+    background-image: url(../images/frontend/sprite.png);
+    width: 26px;
+    height: 26px;
+    display: inline-block;
+    background-position: -225px 0px;
+    margin-bottom:30px;
+}
+
+.instagram-gallery .icon p {
+    color: #1d2269;
+    line-height: 26px;
+    font-size: 18px;
+    padding-left: 30px;
+}
+
+.instagram-gallery .icon p:before {
+    content: '/';
+    padding: 0px 10px;
+}
+
+.instagram-gallery .photo {
+    width: 100%;
+    float: left;
+}
+
+.instagram-gallery .photo ul {
+    width: 100%;
+    float: left;
+}
+
+.instagram-gallery .photo ul li {
+    float: left;
+    width: 19.2%;
+    max-height: 230px;
+    margin-right: 1%;
+}
+
+.instagram-gallery .photo ul li:last-child {
+	margin-right:0px;
+}
+
+.instagram-gallery .photo ul li a img {
+    width: 100%;
+    height: 100%;
+}
+
+/* ========== INSTAGRAM GALLERY END ========== */
+
+
+
+/* ========== FOOTER START ========== */
+
+#footer {
+    width: 100%;
+}
+
+.footer-holder {
+    padding-top: 60px;
+    padding-bottom: 75px;
+    width: 100%;
+    display: inline-block;
+}
+
+.footer-holder .copyright {
+    float: left;
+    margin-top: 12px;
+}
+
+.footer-holder .social-media {
+    float: right;
+}
+
+
+.footer-holder * {
+    color: #aaa;
+    font-size: 13px;
+}
+
+.footer-holder .social-media .icon {
+    width: auto;
+    float: left;
+}
+
+.footer-holder .social-media .icon li a {
+	width: 36px;
+	height: 36px;
+	background-image: url('../images/frontend/sprite.png');
+	float: left;
+	display:block;
+}
+
+.footer-holder .social-media span {
+    float: left;
+    line-height: 36px;
+    margin-right: 5px;
+}
+
+.footer-holder .social-media .icon .facebook {
+    background-position: 0px 0px;
+}
+
+.footer-holder .social-media .icon .twitter {
+    background-position: -37px 0px;
+}
+
+.footer-holder .social-media .icon .google {
+    background-position: -74px 0px;
+}
+
+.footer-holder .social-media .icon .instagram {
+    background-position: -111px 0px;
+}
+
+.footer-holder .social-media .icon .linkedin {
+    background-position: -148px 0px;
+}
+
+.footer-holder .social-media .icon li {
+    float: left;
+    margin-left: 10px;
+}
+
+/* ========== FOOTER END ========== */
+
+
+
+/* ========== HOTEL GENERAL START ========== */
+
+.hotel-holder {
+    width: 100%;
+    float: left;
+}
+
+.hotel-holder .image {
+    position: relative;
+    margin-bottom: 65px;
+}
+
+.hotel-holder .image img{
+	width:100%;
+}
+
+.hotel-holder .image h2 {
+    position: absolute;
+    bottom: 15%;
+    font-size: 92px;
+    text-align: center;
+    width: 100%;
+}
+
+.hotel-holder .description {
+    width: 100%;
+}
+
+.hotel-holder .description * {
+    color: #404040;
+}
+
+.hotel-holder .description .text {
+    text-align: center;
+}
+
+.hotel-holder .description .text .read-more {
+    color: #020857;
+    padding-left: 5px;
+}
+
+.hotel-holder .information{
+    margin: auto;
+    max-width: 869px;
+}
+
+.hotel-holder .information * {
+    color: #1d2269;
+    font-size: 18px;
+}
+
+.hotel-holder .information .bar {
+    width: 100%;
+    float:left;
+    margin-top: 80px;
+    margin-bottom: 70px;
+}
+
+.hotel-holder .information .bar li {
+    height: 80px;
+    background-color: #eee;
+    float: left;
+    border-right: 1px solid #ccc;
+    width: 33%;
+    display: table;
+}
+
+.content {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0 10%;
+}
+
+.hotel-holder .information .bar .discover {
+	border-right: 0px;
+}
+
+.hotel-holder .information .bar li a {
+    float: left;
+}
+
+.hotel-holder .information .bar li .content i {
+	background-image: url('../images/frontend/sprite.png');
+	transition:all .4s;
+	-webkit-transition:all .4s;
+	-moz-transition:all .4s;
+}
+
+.hotel-holder .information .bar li .content i {
+    float: right;
+}
+
+.hotel-holder .information .bar .location i {
+	background-position: -185px 0px;
+	width: 16px;
+	height: 22px;
+}
+
+.hotel-holder .information .bar .location:hover i {
+    background-position: -185px -23px;
+}
+
+.hotel-holder .information .bar .gallery i {
+	background-position: -202px 0px;
+	width: 22px;
+	height: 18px;
+}
+
+.hotel-holder .rooms {
+    width: 100%;
+    float: left;
+}
+
+.hotel-holder .rooms h1 {
+    color: #121761;
+    font-size: 60px;
+    width: 100%;
+    text-align: center;
+}
+
+.hotel-holder .rooms h3 {
+    width: 100%;
+    float: left;
+    font-size: 24px;
+    color: #5f5f5f;
+    font-family: 'athelas-italic';
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 20px;
+}
+
+.hotel-holder .rooms .object {
+    width: 100%;
+    float: left;
+}
+
+.hotel-holder .rooms .object li {
+    float: left;
+    position: relative;
+}
+
+.hotel-holder .rooms .object li span {
+    position: absolute;
+    bottom: 10%;
+    font-family: 'gill-medium';
+    text-align: center;
+    width: 100%;
+    padding: 0px 3%;
+    letter-spacing: 1.5px;
+    line-height: 25px;
+}
+
+.hotel-holder .rooms .object .small {
+    width: 30.8%;
+}
+
+.hotel-holder .rooms .object .small a img {
+    width: 100%;
+}
+
+.hotel-holder .rooms .object .medium {
+    width: 48%;
+}
+
+.hotel-holder .rooms .object .medium > a img {
+    width: 100%;
+}
+
+.hotel-holder .rooms .object .medium-longer {
+    width: 48%;
+}
+
+.hotel-holder .rooms .object .medium-longer a img {
+    width: 100%;
+}
+
+.hotel-holder .rooms .object .big {
+    width: 100%;
+}
+
+.hotel-holder .rooms .object .big > a img {
+    width: 100%;
+}
+
+.hotel-holder .rooms .object-three li {
+    margin-right: 3.8%;
+}
+
+.hotel-holder .rooms .object-three li:last-child, .hotel-holder .rooms .object-two li:last-child  {
+    margin-right: 0;
+}
+
+.hotel-holder .rooms .object-two li {
+    margin-right: 4%;
+}
+
+/* ========== HOTEL GENERAL END ========== */
+
+
+
+
+
+/* ========== TEKIROVA START ========== */
+
+#tekirova .rooms .special-one {
+	margin-bottom: 50px;
+}
+
+/* ========== TEKIROVA END ========== */
+
+
+
+
+
+/* ========== BELEK START ========== */
+
+
+
+/* ========== BELEK END ========== */
+
+
+
+
+
+/* ========== ROOM DETAIL START ========== */
+
+.room-detail-holder .room-image {
+    width: 100%;
+    position: relative;
+    margin-bottom:100px;
+}
+
+.room-detail-holder .room-image img {
+    width: 100%;
+}
+
+.room-detail-holder .room-image h2 {
+    position: absolute;
+    color: #fff;
+    top: 50%;
+    font-size: 30px;
+    font-family: 'gill-medium';
+    width: 100%;
+    text-align: center;
+}
+
+.room-detail-holder .room-description * {
+    color: #404040;
+}
+
+.room-detail-holder .room-description {
+    width: 100%;
+}
+
+.room-detail-holder .room-description h2 {
+    font-size: 85px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.room-detail-holder .room-description p {
+    width: 100%;
+    text-align: center;
+}
+
+.room-detail-holder .sketch-background {
+    background: #eee;
+    margin-top: 90px;
+    margin-bottom: 100px;
+    padding-top: 90px;
+    padding-bottom: 70px;
+}
+
+.room-detail-holder .sketch {
+    width: 100%;
+}
+
+.room-detail-holder .sketch .image {
+    margin: auto;
+}
+
+.room-detail-holder .sketch .image img {
+    width: 100%;
+}
+
+.room-detail-holder .sketch .detail .framework .object > li:first-child:after{
+	content: '';
+    height: 1px;
+    width: 110px;
+    background: #aaa;
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.room-detail-holder .sketch .detail {
+    display: table;
+    width: 100%;
+	margin-top:50px;
+}
+
+.room-detail-holder .sketch .detail .framework {
+    display: table-cell;
+}
+
+.room-detail-holder .sketch .detail .framework .object .item {
+    text-align: center;
+}
+
+.room-detail-holder .sketch .detail *{
+    color: #404040;
+}
+
+.room-detail-holder .sketch .detail .framework .object .item-one {
+    font-size: 130px;
+    font-family: 'gill-light';
+}
+
+.room-detail-holder .includes {
+    width: 100%;
+    float: left;
+}
+
+.room-detail-holder .includes .object * {
+    color: #404040;
+	font-family: 'gill-light';
+}
+
+.room-detail-holder .includes .object li {
+    float: left;
+    width: 100%;
+    font-size:16px;
+    padding-bottom:5px;
+    padding-left: 10px;
+    background-image: url('../images/frontend/list-bg.png');
+    background-repeat: no-repeat;
+    background-position: left 5px;
+}
+
+.room-detail-holder .includes > h2 {
+    color: #404040;
+	margin-bottom:20px;
+}
+
+.room-detail-holder .holder-two > h2 {
+    width: 50%;
+    float: left;
+}
+
+.room-detail-holder .holder-full > h2 {
+    width:100%;
+}
+
+.room-detail-holder .holder-two .object {
+    width: 50%;
+    float: left;
+}
+
+.room-detail-holder .holder-full .object {
+    width: 48%;
+    float: left;
+}
+
+.room-detail-holder .holder-full .object-two {
+    margin-left:4%;
+}
+
+/* ========== ROOM DETAIL END ========== */
+
+
+
+
+
+/* ========== ROOM ONE DETAIL START ========== */
+
+#room-one .sketch .variable {
+    width: 469px;
+    height: 431px;
+}
+
+/* ========== ROOM ONE DETAIL END ========== */
+
+
+
+
+
+/* ========== ROOM TWO DETAIL START ========== */
+
+#room-two .sketch .variable {
+    width: 544px;
+    height: 430px;
+}
+
+/* ========== ROOM TWO DETAIL END ========== */
+
+
+
+
+
+/* ========== DISCOVER START ========== */
+
+.discover-holder .description *{
+	color: #404040;
+}
+
+.discover-holder .description {
+    width: 100%;
+}
+
+.discover-holder .description-one{
+	margin-top:100px;
+}
+
+.discover-holder .description h2:after {
+    content: "";
+    width: 110px;
+    height: 1px;
+    background: #aaa;
+    display: block;
+    margin: 40px auto;
+}
+
+.discover-holder .description h2 {
+    font-size: 60px;
+    width: 100%;
+    text-align: center;
+}
+
+.discover-holder .description p {
+    width: 100%;
+    text-align: center;
+    line-height:25px;
+    padding: 0 5%;
+}
+
+.discover-holder .description h2 small {
+    font-size: 40px;
+    font-family: 'athelas-italic';
+	display:block;
+	text-align:center;
+}
+
+.discover-holder .description h3 {
+    font-family: 'gill-medium';
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+}
+
+.discover-holder .image img {
+    width: 100%;
+    min-height: 550px;
+}
+
+.discover-holder .image {
+    position: relative;
+    margin: 110px 0;
+}
+
+.discover-holder .image .figcaption {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+.discover-holder .image .figcaption * {
+    text-align: center;
+}
+
+.discover-holder .image .figcaption h2 {
+    font-size: 60px;
+}
+
+.discover-holder .image .figcaption h2 small {
+    font-size: 60px;
+    font-family: 'athelas-italic';
+	display:block;
+}
+
+.discover-holder .image .figcaption p {
+	margin: 40px auto auto auto;
+	line-height:25px;
+	width: 800px;
+	max-width: 95%;
+	padding: 0 5%;
+}
+.discover-holder .image .figcaption h3 {
+    font-size: 30px;
+	font-family:'gill-medium';
+	margin-top:20px;
+	line-height:35px;
+	letter-spacing:3px;
+}
+
+.discover-holder .description h1 {
+    font-size: 130px;
+    text-align: center;
+    width: 100%;
+    font-family: 'gill-light';
+}
+
+.discover-holder .image .figcaption h1 {
+    font-size: 130px;
+    font-family: 'athelas-italic';
+	position:relative;
+}
+
+.discover-holder .image .figcaption h1 .rate{
+	position:absolute;
+	top:40px;
+	font-size:50px;
+}
+
+.discover-holder .information {
+    width: 100%;
+	display:inline-block;
+}
+
+.discover-holder .information .object {
+    width: 48%;
+}
+
+.discover-holder .information .object .text {
+    width: 100%;
+    padding: 0 3%;
+}
+
+.discover-holder .information .object-one {
+    float:left;
+}
+
+.discover-holder .information .object-two {
+    float: left;
+    margin-left: 4%;
+}
+
+.discover-holder .information .object img{
+	width:100%;
+}
+
+.discover-holder .information .object .text h2 {
+    width: 100%;
+    font-size: 60px;
+    text-align: center;
+	margin-bottom:30px;
+}
+
+.discover-holder .information .object .text h2 small{
+    width: 100%;
+    font-size: 40px;
+    text-align: center;
+	font-family:'athelas-italic';
+	display:block;
+}
+
+.discover-holder .information .object .text * {
+    color: #404040;
+}
+
+.discover-holder .information .object .text p {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 80px;
+    line-height:25px;
+}
+
+.discover-holder .information .img-two-p .text p{
+	margin-top:100px;
+}
+
+.discover-holder .information .img-top {
+    display: table;
+}
+
+.discover-holder .information .img-top .text {
+    display: table-footer-group;
+}
+
+.discover-holder .information .img-top img {
+    margin-bottom: 80px;
+}
+
+.discover-holder .information .img-top .text p {
+    margin: 0;
+}
+
+.slider1200 {
+    width: 100%;
+    display:inline-block;
+    margin: 110px 0;
+}
+
+.slider1200 img {
+    width: 100%;
+    float: left;
+}
+
+.slider1200 .gallery {
+    float: left;
+    width: 100%;
+}
+
+.slider1200 .gallery ul {
+    float: left;
+    width: 100%;
+    padding: 0 15px;
+    margin-top: 15px;
+}
+
+.slider1200 .gallery ul li {
+    width: 9.2%;
+    height: 74px;
+    float: left;
+    margin-right: 0.8%;
+    position:relative;
+}
+
+.slider1200 .gallery ul li:last-child {
+    margin-right: 0;
+}
+
+.slider1200 .gallery ul li a img {
+    width: 100%;
+}
+
+.slider1200 .gallery ul .selected:before {
+	content: "";
+	position: absolute;
+	border-width: 10px;
+	border-style: solid;
+	border-color: transparent transparent #020857 transparent;
+	top: -20px;
+	left: 50%;
+	margin-left: -10px;
+}
+
+.slider1200 .gallery ul .selected:after {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border: 4px solid #020857;
+    content: "";
+    display: block;
+    -moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+/* ========== DISCOVER END ========== */
+
+
+
+
+
+/* ========== SPA START ========== */
+
+#spa-holder .description-two h1:after {
+    content: '';
+    display: block;
+    width: 110px;
+    height: 1px;
+    background: #404040;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+/* ========== SPA END ========== */
+
+#spa-holder .description-three h2:after{
+	display:none
+}
+
+#spa-holder .description-three h3{
+	font-family:'athelas-regular';
+	font-size:40px;
+	margin-bottom:50px;
+}
+
+#spa-holder .image .figcaption h1:after{
+	content: "";
+    width: 110px;
+    height: 1px;
+    background: #fff;
+    display: block;
+    margin: 40px auto;
+}
+
+#spa-holder .description-four p{
+	font-size:15px;
+	font-family:'gill-medium'
+}
+
+#spa-holder .image-two {
+    margin-bottom: 50px;
+}
+
+#spa-holder .image .figcaption h2 small {
+    display: inline-block;
+}
+
+/* ========== FLAVORS START ========== */
+
+#flavors-holder .image-one .figcaption h2 small{
+	font-family:'gill-medium';
+	font-size:30px;
+	display:block;
+}
+
+#flavors-holder .description-two h2:after{
+	display:none;
+}
+
+#flavors-holder .image-two{
+	margin-top:0px;
+}
+
+#flavors-holder .image-two .figcaption h2:after{
+	content: "";
+    width: 110px;
+    height: 1px;
+    background: #fff;
+    display: block;
+    margin: 40px auto;
+}
+
+#flavors-holder  .bars {
+    width: 100%;
+}
+
+#flavors-holder  .bars * {
+    color: #404040;
+}
+
+#flavors-holder  .bars h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 80px;
+    font-family: 'gill-light';
+}
+
+#flavors-holder  .bars h1 i {
+    display: block;
+    background-image: url('../images/frontend/sprite.png');
+    width: 29px;
+    height: 62px;
+    margin: auto;
+    background-position: 0px -73px;
+}
+
+#flavors-holder .bars .information .organization * {
+	font-family:'gill-medium'
+}
+
+#flavors-holder .bars .information{
+	width:100%;
+}
+
+#flavors-holder .bars .information .organization{
+	display:inline-block;
+	width: 25%;
+	float:left;
+	margin-top:50px;
+}
+
+#flavors-holder .bars .information .organization .location, #flavors-holder .bars .information .organization .time {
+    text-align: center;
+	line-height:25px;
+	white-space:nowrap;
+}
+
+#flavors-holder .bars h1:after {
+    content: "";
+    width: 110px;
+    height: 1px;
+    background-color: #aaa;
+    display: block;
+    margin: 30px auto;
+}
+
+#flavors-holder .bars-gallery {
+    width: 100%;
+    display: inline-block;
+	margin-top:120px;
+}
+
+#flavors-holder .bars-gallery ul {
+    float: left;
+}
+
+#flavors-holder .bars-gallery ul li {
+    float: left;
+    width: 32.4%;
+    margin-right: 1.3%;
+}
+
+#flavors-holder .bars-gallery ul li img {
+    width: 100%;
+}
+
+#flavors-holder .bars-gallery ul li:last-child {
+    margin-right: 0;
+}
+
+/* ========== FLAVORS END ========== */
+
+
+
+
+
+/* ========== AQUA PARK START ========== */
+
+#aqua-park-holder .description-one h2:before{
+	content: "";
+    width: 110px;
+    height: 1px;
+    background: #aaa;
+    display: block;
+    margin: 40px auto;
+}
+
+#aqua-park-holder .description-one h2:after{
+	display:none;
+}
+
+#aqua-park-holder .image .figcaption h3{
+	margin-top:0px;
+}
+
+#aqua-park-holder .description-two h3 {
+    font-family: 'athelas-italic';
+    font-size: 40px;
+	margin-bottom:10px;
+}
+
+/* ========== AQUA PARK END ========== */
+
+
+
+
+
+/* ========== HAPPY LAND START ========== */
+
+#happy-land-holder .description-one{
+	margin-top:0px;
+}
+
+/* ========== HAPPY LAND END ========== */
+
+#happy-land-holder .description-one h2 small {
+	display:inline-block;
+}
+
+#happy-land-holder .description-two h2 small {
+	font-size:60px;
+}
+
+/* ========== ACTIVITIES START ========== */
+
+#activities-holder .image .figcaption h3:after{
+	content: "";
+    width: 110px;
+    height: 1px;
+    background: #fff;
+    display: block;
+    margin: 40px auto;	
+}
+
+#activities-holder .image-two{
+	margin-bottom:0px;
+}
+
+/* ========== ACTIVITIES END ========== */
+
+
+
+
+
+/* ========== AWARDS START ========== */
+
+.awards .image{
+	position:relative;
+	width:100%;
+}
+
+.awards .image img{
+	width:100%;
+}
+
+.awards .image h2 {
+    position: absolute;
+    bottom: 35%;
+    font-size: 92px;
+    text-align: center;
+    width: 100%;
+}
+
+/* ========== AWARDS END ========== */
+
+
+
+
+
+/* ========== MEDIA 1200 START ========== */
+
+@media screen and (max-width: 1200px){
+
+.hotel-holder .image h2{
+	font-size:80px;
+}
+
+.awards .image h2 {
+    font-size:80px;
+}
+
+.discover-holder .information .object .text h2{
+	font-size:50px;
+}
+
+}
+
+/* ========== MEDIA 1200 END ========== */
+
+
+
+
+
+/* ========== MEDIA 768 START ========== */
+
+@media screen and (max-width: 768px){
+.reservation > .d-reservation {
+    display: none;
+}
+
+.reservation > .m-reservation {
+    display: block;
+    padding: 13px 18px;
+    border: 2px solid #d8d8d8;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.hotel-holder .image h2{
+	font-size:60px;
+}
+
+.awards .image h2 {
+    font-size:60px;
+}
+
+.discover-holder .image .figcaption h2 {
+    font-size: 50px;
+}
+
+.discover-holder .image .figcaption h2 small {
+    font-size: 50px;
+}
+
+.discover-holder .information .object .text h2{
+	font-size:50px;
+}
+
+.discover-holder .information .object .text h2{
+	font-size:45px;
+}
+
+}
+
+/* ========== MEDIA 768 END ========== */
+
+
+
+
+
+
+
+
+
+
+

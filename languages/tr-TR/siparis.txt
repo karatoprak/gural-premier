@@ -1,0 +1,5 @@
+﻿FLD_FIELD|FLD_TEXT
+lbfHAVALEINDIRIMI|Havale İndirimi
+lbfSil|<i class="icon1 closeIcon3"></i>
+lbfHCK_KEY|İndirim Kodum Var
+lbfSip_NetToplam|NET TOPLAM

@@ -1,0 +1,4 @@
+﻿FLD_FIELD|FLD_TEXT
+lbfFiltreToplamUrunSayi|$toplamUrunAdet$ Ürün
+lblKargoFiyat|deneme
+lbfGNL_KAYIT|ÜRÜN

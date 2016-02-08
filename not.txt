@@ -1,0 +1,40 @@
+--------------------------------------------------------------
+
+Silinebilecek fontlar
+
+athelas bold
+athelas bold italic
+
+gill bold
+gill bold italic
+
+--------------------------------------------------------------
+
+activities = 579*387(2) - 1200*650(2) - 1500*700(2)
+aqua park = 579*387 - 1200*650(2) - 1500*700(2)
+flavors = 389*259(3) - 1200*650(2) - 1500*700(2)
+happy-land = 579*387 - 1200*650(2) - 1500*700(2)
+spa = 1200*650(2) - 1500*700(2)
+
+belek = 577*350(4) - 1200*480 - 1200*650 - 1420*570
+tekirova = 370*350(6) - 577*350(2) - 577*400(2) * 1420*570
+
+buyuk-oda = 1200*650(2)
+kucuk-oda = 1200*650(2)
+
+home = 280*300(3) 320*300
+home-slider = 1420*650(3)
+
+instagram gallery = 230*230
+
+230*230 - module gerek yok
+280*300 - module gerek yok
+370*350 - modul - small
+389*259 - module gerek yok 
+577*350 - modul - medium
+577*400 - modul - medium-longer
+579*387 - modul
+1200*650 - modul
+1420*570 - modul
+1420*650 - module gerek yok
+1500*700 - modul

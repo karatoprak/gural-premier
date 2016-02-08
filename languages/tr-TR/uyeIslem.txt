@@ -1,0 +1,2 @@
+﻿FLD_FIELD|FLD_TEXT
+lbfKargoBilgi|Kargo Takip No

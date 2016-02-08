@@ -1,0 +1,17 @@
+﻿<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta id="myViewport" name="viewport" content="width=device-width, initial-scale=0.8, maximum-scale=0.8, user-scalable=0">
+
+<title>VEPA 62 Online Alışveriş | Kadın ayakkabı ve çanta modelleri | Ücretsiz Kargo · Özel İndirimler</title>
+<meta name="description" content="Vepa garantisi ile BCBG, Vince Camuto, Fornarina, Fitflop, Promiss ve birçok dünyaca ünlü ayakkabı, çanta, çizme, bot ve aksesuar markalarını güvenle ve uygun fiyatlara satın alabilirsiniz." />
+
+<link rel="icon" href="/images/frontend/favicon.ico" type="image/ico">
+<link rel="shortcut icon" href="/images/frontend/favicon.ico">
+
+<link href="/scripts/emos.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="/styles/genel.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="/styles/sayfa.css" rel="stylesheet" type="text/css" media="screen" />
+
+<!--[if lt IE 9]>
+    <link rel="stylesheet" type="text/css" href="/styles/ie8.css" />
+<![endif]-->
