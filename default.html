@@ -7,10 +7,10 @@
 <link href="styles/font.css" rel="stylesheet" type="text/css">
 <link href="styles/genel.css" rel="stylesheet" type="text/css">
 <link href="styles/sayfa.css" rel="stylesheet" type="text/css">
+<link href="styles/plugins.css" rel="stylesheet" type="text/css">
 
 <script type="text/javascript" src="styles/js/silinecek.js"></script>
 <script type="text/javascript" src="styles/js/global.js"></script>
-<script type="text/javascript" src="styles/js/allscripts.js"></script>
 <script type="text/javascript" src="styles/js/custom-plugins.js"></script>
 </head>
 
@@ -51,15 +51,45 @@
 		<article class="w-full">
 			<section class="w1420">
 				<div class="home-slider w-full">
-					<img src="upload/gallery/home-slider/01.jpg" class="img" alt="Discover" />
-					<div class="home-slider-holder">
-						<h2>Passion to Blue</h2>
-						<p>Blue of the sea and blue of the sky are<br/>meeting at the same frame</p>
-							<ul class="discover">
-								<li class="object object-one"><a href="javascript:;" title="Hotels">Hotels</a></li>
-								<li class="object object-two"><a href="javascript:;" title="Discover">Discover</a></li>
-							</ul>
-					</div>		
+					
+                    
+                    <!-- main slider -->
+              <div class="swiper-container">
+                <div class="swiper-wrapper"> 
+                  
+                  <!-- Lazy image -->
+                  <div class="swiper-slide"> <img src="placeHolder.gif" data-src="upload/gallery/home-slider/01.jpg" class="swiper-lazy">
+                    <div class="swiper-lazy-preloader"></div>
+                    <div class="home-slider-holder">
+                      <h2>Passion to Blue</h2>
+                      <p>Blue of the sea and blue of the sky are<br/>
+                        meeting at the same frame</p>
+                    </div>
+                  </div>
+                  
+                  <!-- Lazy image -->
+                  <div class="swiper-slide"> <img src="placeHolder.gif" data-src="upload/gallery/home-slider/01.jpg" class="swiper-lazy">
+                    <div class="swiper-lazy-preloader"></div>
+                    <div class="home-slider-holder">
+                      <h2>Passion to Blue</h2>
+                      <p>Blue of the sea and blue of the sky are<br/>
+                        meeting at the same frame</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- main slider -->
+              
+              <div class="home-slider-holder">
+                <ul class="discover">
+                  <li class="object object-one"><a href="javascript:;" title="Hotels">Hotels</a></li>
+                  <li class="object object-two"><a href="javascript:;" title="Discover">Discover</a></li>
+                </ul>
+              </div>
+                    
+                    
+                    
+                    		
 				</div>	
 			</section>
 		</article>
@@ -111,7 +141,7 @@
 			<section class="w1200 max-w95">
 				<div class="social-activities-holder">
 					<div class="social-activities social-activities-one">
-						<img src="upload/gallery/social-activities/01.jpg" alt="Social Activities" />
+						<img class="lazy" src="placeHolder.gif" data-original="upload/gallery/social-activities/01.jpg" alt="Social Activities" />
 						<div class="text">
 							<h2>Keep Yourself Fit While Having Fun</h2>
 							<p>Release your spirit and body energy by exercise</p>
@@ -119,7 +149,7 @@
 						</div>	
 					</div>
 					<div class="social-activities social-activities-two">
-						<img src="upload/gallery/social-activities/02.jpg" alt="Social Activities" />
+						<img class="lazy" src="placeHolder.gif" data-original="upload/gallery/social-activities/02.jpg" alt="Social Activities" />
 						<div class="text">
 							<h2>Showtime</h2>
 							<p>When the sun goes down, our animators appear in their great costumes</p>
@@ -127,7 +157,7 @@
 						</div>	
 					</div>
 					<div class="social-activities social-activities-three">
-						<img src="upload/gallery/social-activities/03.jpg" alt="Social Activities" />
+						<img class="lazy" src="placeHolder.gif" data-original="upload/gallery/social-activities/03.jpg" alt="Social Activities" />
 						<div class="text">
 							<h2>A World of Fun</h2>
 							<p>Güral Premier has made a special activity-entertainment complex for children and teenages between the age of 0-17</p>
@@ -138,11 +168,29 @@
 				</div>
 				
 				<div class="home-mini-slider">
-					<a href="javascript:;" title="Check Our Rooms"><img src="upload/gallery/social-activities/04.jpg" alt="Check Our Rooms" /></a>
-					<div class="our-rooms">
-						<h2>Your Room Is Ready At Güral Premier</h2>
-						<a href="javascript:;" class="check-our-rooms" title="Check Our Rooms">Check Our Rooms</a>
-					</div>
+					
+                     <!-- mini slider -->
+              <div class="swiper-container">
+                <div class="swiper-wrapper"> 
+                  
+                  <!-- -->
+                  <div class="swiper-slide"> <a href="javascript:;" title="Check Our Rooms"><img src="placeHolder.gif" data-src="upload/gallery/social-activities/04.jpg" class="swiper-lazy" alt="Check Our Rooms" /></a>
+                    <div class="our-rooms">
+                      <h2>Your Room Is Ready At Güral Premier</h2>
+                      <a href="javascript:;" class="check-our-rooms" title="Check Our Rooms">Check Our Rooms</a> </div>
+                  </div>
+                  
+                  <!-- -->
+                  <div class="swiper-slide"> <a href="javascript:;" title="Check Our Rooms"><img src="placeHolder.gif" data-src="upload/gallery/social-activities/04.jpg" class="swiper-lazy" alt="Check Our Rooms" /></a>
+                    <div class="our-rooms">
+                      <h2>Your Room Is Ready At Güral Premier</h2>
+                      <a href="javascript:;" class="check-our-rooms" title="Check Our Rooms">Check Our Rooms</a> </div>
+                  </div>
+                </div>
+              </div>
+              <!-- mini slider --> 
+                    
+                    
 				</div>
 			</section>
 		</article>
@@ -155,11 +203,11 @@
 					<span class="icon"><p>GÜRALPREMİER</p></span>
 						<div class="photo">
 							<ul>
-								<li><a href="javascript:;" title="Instagram Gallery"><img src="upload/gallery/instagram/01.jpg" alt="İnstagram Gallery"/></a></li>
-								<li><a href="javascript:;" title="Instagram Gallery"><img src="upload/gallery/instagram/02.jpg" alt="İnstagram Gallery"/></a></li>
-								<li><a href="javascript:;" title="Instagram Gallery"><img src="upload/gallery/instagram/03.jpg" alt="İnstagram Gallery"/></a></li>
-								<li><a href="javascript:;" title="Instagram Gallery"><img src="upload/gallery/instagram/04.jpg" alt="İnstagram Gallery"/></a></li>
-								<li><a href="javascript:;" title="Instagram Gallery"><img src="upload/gallery/instagram/05.jpg" alt="İnstagram Gallery"/></a></li>
+								<li><a href="javascript:;" title="Instagram Gallery"><img class="lazy" src="placeHolder.gif" data-original="upload/gallery/instagram/01.jpg" alt="İnstagram Gallery"/></a></li>
+								<li><a href="javascript:;" title="Instagram Gallery"><img class="lazy" src="placeHolder.gif" data-original="upload/gallery/instagram/02.jpg" alt="İnstagram Gallery"/></a></li>
+								<li><a href="javascript:;" title="Instagram Gallery"><img class="lazy" src="placeHolder.gif" data-original="upload/gallery/instagram/03.jpg" alt="İnstagram Gallery"/></a></li>
+								<li><a href="javascript:;" title="Instagram Gallery"><img class="lazy" src="placeHolder.gif" data-original="upload/gallery/instagram/04.jpg" alt="İnstagram Gallery"/></a></li>
+								<li><a href="javascript:;" title="Instagram Gallery"><img class="lazy" src="placeHolder.gif" data-original="upload/gallery/instagram/05.jpg" alt="İnstagram Gallery"/></a></li>
 							</ul>	
 						</div>
 				</div>
@@ -193,5 +241,6 @@
 	</article>	
 </footer>
 <!-- FOOTER END -->
+<script type="text/javascript" src="styles/js/allscripts.js"></script>
 </body>
 </html>

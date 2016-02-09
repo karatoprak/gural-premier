@@ -239,6 +239,7 @@
     position: absolute;
     bottom: 115px;
     width: 100%;
+	z-index:2;
 }
 
 .home-slider-holder > h2 {
